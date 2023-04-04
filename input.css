@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: chaparral-pro;
+    src: url(/font/ChaparralPro-Bold.otf);
+  }
+}
+
+.font-logo {
+  font-family: chaparral-pro;
+}
+
+.bg-front {
+  background-image: url('../img/front.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg-cont {
+  background-image: url('../img/rodzinny1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.btn {
+  @apply font-bold border-4 p-4 rounded-full duration-200 ;
+}
