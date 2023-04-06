@@ -14,7 +14,7 @@
 </head>
 <body class="overflow-x-hidden scroll-smooth">
   <!-- nav -->
-  <nav id="nav" class="flex justify-between items-center w-full p-4 bg-white absolute lg:fixed border-b-2 border-b-logo">
+  <nav id="nav" class="flex justify-between items-center w-full p-4 bg-white border-b-2 border-b-logo">
     <!-- logo container -->
     <div>
       <a href="index.html"  class="flex justify-center items-center gap-4 text-center">
@@ -25,7 +25,7 @@
     <!-- navbarmenu -->
     <ul class=" hidden lg:flex w-1/3 ml-4 justify-between text-xl cursor-pointer">
       <li class="hover:border-b-2 border-b-logo">
-        <a href="kontakt.html">Kontakt</a>
+        <a href="index.html">Strona Główna</a>
       </li>
       <li class="hover:border-b-2 border-b-logo">
         <a href="galeria.html">Galeria</a>
@@ -55,7 +55,7 @@
         class="fixed inset-0 z-40 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase d opacity-90 bg-logo"
       >
         <div class="w-full py-3 text-center">
-          <a href="kontakt.html" class="block hover:text-softRed">Kontakt</a>
+          <a href="index.html" class="block hover:text-softRed">Strona Główna</a>
         </div>
         <div class="w-full py-3 text-center">
           <a href="galeria.html" class="block hover:text-softRed">Galeria</a>
@@ -64,11 +64,14 @@
           <a href="lekarze.html" class="block hover:text-softRed">Lekarze</a>
         </div>
   </nav>
-  <header class="flex flex-col items-end p-16 pt-72 pb-72 bg-front bg-fixed">
-    <div class=" flex flex-col md:w-1/2 text-center md:text-right text-white gap-10">
-      <h1 class="text-logo text-6xl text-bold">Merkury Medica</h1>
-      <p class="text-4xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, iusto!</p>
-      <div class="block"><a href="" class=" border-green-500 hover:bg-green-500   btn">Zarejestruj się już Teraz</a></div>
+  <header class="flex flex-col  md:p-16 pt-72 pb-72 bg-front bg-fixed">
+    <div class=" flex flex-col md:w-1/2 text-center md:text-left text-white gap-10">
+      <h1 class="text-logo text-5xl md:text-6xl text-bold">Skontaktuj się z nami</h1>
+      <p class="text-3xl md:text-4xl">+48 666 666 666</p>
+      <p class="text-3xl md:text-4xl">medica@merkury.pl</p>
+      <p class="text-3xl md:text-4xl">ul. Mazowiecka 8</p>
+      <p class="text-3xl md:text-4xl">Jastrzębie Zdrój</p>
+      <div class="block"><a href="" class=" border-green-500 hover:bg-green-500 btn">Zarejestruj się już Teraz</a></div>
       
     </div>
 
@@ -95,80 +98,31 @@
         </div>
       </div>
   </section>
-<!-- need -->
-  <section id="need">
-    <div class="flex flex-col justify-center items-center">
-      <!-- line -->
-      <div class="w-screen border-2 border-logo inline lg:hidden mt-12"></div>
 
-      <!-- row 1 -->
-      <div class="flex flex-col lg:flex-row w-3/4 gap-12 mt-12">
-        <img src="./img/lekarz 1.jpg" alt="" class="w-full lg:w-1/2  border-2 border-black rounded-xl mx-auto shadow-md shadow-black">
-        <div class="flex flex-col flex-1 text-center lg:text-left gap-12 items-center justify-center">
-          <h1 class="text-3xl xl:text-5xl font-logo text-logo">Szybka i Dokładna Diagnoza</h1>
-          <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maiores in consectetur eveniet eos eaque!</p>
-          
-        </div>
-      </div>
-      <!-- line -->
-      <div class="w-screen border-2 border-logo inline lg:hidden mt-12"></div>
-
-      <!-- row 2 -->
-      <div class="flex flex-col lg:flex-row-reverse w-3/4 gap-12 mt-12">
-        <img src="./img/lekarz 2.jpg" alt="" class=" w-full lg:w-1/2  border-2 border-black rounded-xl mx-auto shadow-md shadow-black">
-        <div class="flex flex-col flex-1 text-center lg:text-left gap-12 items-center justify-center">
-          <h1 class="text-3xl xl:text-5xl font-logo text-logo">Indywidualne podejście do każdego pacjenta</h1>
-          <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maiores in consectetur eveniet eos eaque!p>
-          
-        </div>
-      </div>
-      <!-- line -->
-      <div class="w-screen border-2 border-logo inline lg:hidden mt-12"></div>
-
-      <!-- row 3 -->
-      <div class="flex flex-col lg:flex-row w-3/4 gap-12 mt-12">
-        <img src="./img/lekarz 3.jpg" alt="" class="w-full lg:w-1/2  border-2 border-black rounded-xl mx-auto shadow-md shadow-black">
-        <div class="flex flex-col flex-1 text-center lg:text-left gap-12 items-center justify-center">
-          <h1 class="text-3xl xl:text-5xl font-logo text-logo">Wykfalifikowana Kadra</h1>
-          <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maiores in consectetur eveniet eos eaque!</p>
-          
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-<!-- kadra -->
-  <section id="kadra">
-    <div class="flex flex-col justify-center items-center mt-12 p-12">
-      <h1 class="text-5xl font-logo text-logo">Nasza Kadra</h1>
-      <div class="flex flex-col lg:flex-row gap-6 mt-6">
-        <!-- box 1 -->
-        <div class="flex flex-col border-2 flex-1 text-center gap-4 bg-logo text-white border-logo rounded-xl p-4 justify-center items-center">
-          <img src="./img/dentysta.jpg" alt="" class="w-full rounded-xl ">
-          <h2 class="font-logo text-4xl border-b-2 border-white">Dentysta</h2>
-          <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum provident architecto iure aperiam atque.</p>
-          <div class="block p-4"><a href="" class=" border-white text-white btn hover:bg-white hover:text-logo">Czytaj Więcej</a></div>
+  <!-- form  -->
+  <section id="form">
+    <div class="flex flex-col justify-center items-center text-center p-4">
+      <h1 class="text-4xl font-logo text-logo">Napisz do nas i zarejestruj się!</h1>
+      <div class="flex flex-col md:flex-row gap-12 justify-center items-center">
+        <div class="w-1/3">
+          <img
+            src="./img/lekarz 1.jpg"
+            alt=""
+            class="w-full hidden md:block border-2 border-black rounded-xl mx-auto shadow-md shadow-black"
+          />
         </div>
         
-        <!-- box 2 -->
-        <div class="flex flex-col border-2 flex-1 text-center gap-4 bg-logo text-white border-logo rounded-xl p-4 justify-center items-center">
-          <img src="./img/fizjo.jpg" alt="" class="w-full rounded-xl ">
-          <h2 class="font-logo text-4xl border-b-2 border-white">Fizjoterapeuta</h2>
-          <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum provident architecto iure aperiam atque.</p>
-          <div class="block p-4"><a href="" class=" border-white text-white btn hover:bg-white hover:text-logo">Czytaj Więcej</a></div>
+        <div>
+          <form action="" class="flex flex-col border-2 border-gray-400 p-4 rounded-xl">
+            <input type="text" name="imie" placeholder="Imię" required class="border-b-2 w-72 border-gray-400 p-4">
+            <input type="text" name="nazwisko" placeholder="Nazwisko" required class="border-b-2 w-72 border-gray-400 p-4">
+            <input type="text" name="phone" placeholder="Numer Telefonu" required class="border-b-2 w-72 border-gray-400 p-4">
+            <textarea name="wiadomosc" placeholder="Wiadomość" class="border-b-2 w-72 border-gray-400 p-4 h-48"></textarea>
+            <input type="submit" name="submit" value="Wyślij" class="bg-gray-400 w-72 text-white p-4 mt-4 rounded-xl">
+          </form>
         </div>
-        
-        <!-- box 1 -->
-        <div class="flex flex-col border-2 flex-1 text-center gap-4 bg-logo text-white border-logo rounded-xl p-4 justify-center items-center">
-          <img src="./img/podolog.jpg" alt="" class="w-full rounded-xl ">
-          <h2 class="font-logo text-4xl border-b-2 border-white">Podolog</h2>
-          <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum provident architecto iure aperiam atque.</p>
-          <div class="block p-4"><a href="" class=" border-white text-white btn hover:bg-white hover:text-logo">Czytaj Więcej</a></div>
         </div>
-        
       </div>
-      <a href="" class="btn border-logo mt-8 text-logo hover:bg-logo hover:text-white">Zobacz Wszystkich Lekarzy</a>
     </div>
   </section>
 
@@ -207,7 +161,7 @@
         <li>merkury@medica.pl</li>
         
       </ul>
-      <!-- line -->
+      
       
     </div>
   </section>
